@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -7,8 +9,89 @@ body {
     color: white;
 
     /*alinhando ao centro da div que eh o body*/
-    display: grid;
-    place-items:center;
+    /*display: grid;
+    place-items:center;*/
 
     height: 100vh;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between; /*espaço entre os elementos*/
+    padding: 48px;
+}
+
+#registerDay{
+    background-color: #09090A;
+    padding: 16px 24px; /* up and down 16px, left and right 24px*/
+    border-radius:8px;
+    border: 1px solid #8B5CF6;
+    color: white;
+    display:flex;
+    align-items: center; /*align-items somente funcionara caso exista um display:flex*/
+    font-family: "Inter";
+    font-weight; 600;
+    font-size: 16px;
+    line-height:125%;
+    gap: 12px; /*espaço entre os elementos definidos por espaço*/
+}
+
+#registerDay:hover{
+    background-color: #8B5CF6;
+    transition: 1s;
+    opacity: 0.7s;
+}
+
+#form-habits{
+    display: flex;
+    padding: 0 48px;
+}
+.habits{
+    margin-top:59px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.habit{
+    display: flex;
+    width: 64px;
+    height: 64px;
+    font-size:32px;
+    align-items:center;
+    justify-content: center;
+}
+
+.days{
+    display: flex;
+    gap:48px;
+    margin-left: 32px;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div{
+    margin-bottom: 8px;
+    font-family: "Inter";
+    font-weight; 600;
+    font-size: 20px;
+    line-height:125%;
+}
+
+input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    background: #18181B;
+}
+input:checked{
+    background: #8B5CF6;
+    border: 2px solid #A78BFA;
 }
