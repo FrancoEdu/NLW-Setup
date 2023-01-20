@@ -14,4 +14,12 @@ A aplicação em si, tem como objetivo acompanhar e registrar dia à dia hábito
 </div>
 
 ### Observação
-> Não existe um banco de dado na aplicação, ou seja todo dado será salvo localmente, ou seja, ao abrir outra aba de navegação, ou em outro dispositivo, não será possível reestabelecer dados salvos anteriormente. 
+> Não existe um banco de dado na aplicação, ou seja todo dado será salvo localmente, ou seja, ao abrir outra aba de navegação, ou em outro dispositivo, não será possível reestabelecer dados salvos anteriormente.
+```
+    function save(){
+        localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data))
+    }
+    const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+    nlwSetup.setData(data)
+    nlwSetup.load()
+```
