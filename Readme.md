@@ -1,4 +1,4 @@
-![LOGO DA APLICAÇÃO](https://drive.google.com/drive/u/1/folders/1D2ILoil3rVWSdDvT-35t8XYXC57iBuLc)
+![LOGO DA APLICAÇÃO](https://www.figma.com/file/R8P7TJ3uASzs3mD6iVyYpV/Habits-(e)-(Community)?node-id=75%3A1095&t=oziDRLdawrTFg7Mh-4))
 # NLW Setup - HABITS
 <link rel="icon" href="./assets/logo.svg">
 Projeto criado em semana de evento chamado NLW-Setup ministrado pelo escola de programação Rocketseat.<br>
