@@ -38,6 +38,7 @@ header{
     font-size: 16px;
     line-height:125%;
     gap: 12px; /*espaço entre os elementos definidos por espaço*/
+    cursor: pointer;
 }
 
 #registerDay:hover{
