@@ -20,7 +20,7 @@ function add(){
 
 function save(){
     localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data)); //setItem("qualquer coisa", valor da chave e converti para texto)
-
+    
 }
 
 const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {} //somente localmente
